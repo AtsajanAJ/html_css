@@ -6,8 +6,22 @@
 
 .container {
     margin: 2rem;
-    border: 2px solid black;
-    
+    /* border: 2px solid black; */
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: #B71B1C;
+    transform: translateX(4%);
+}
+
+h2 {
+    color: #D94747;
+    transform: translateX(4%);
 }
 
 h1, h2, section {
@@ -15,12 +29,26 @@ h1, h2, section {
 }
 
 section {
-    border: 2px solid blue;
+    width: 40%;
+    border: 3px solid #FFD7DD;
     border-radius: 0 0.5rem; /* left and right */
     /* margin-bottom: 3rem; */
     padding: 0.5em;
-    background-color: yellow;
+    background-color: #FFEBEE;
     /* background: ;  can put the image on background*/
+    position: relative;
+}
+
+.card-id {
+    color: #F44336;
+    position: absolute;
+    bottom: 2px;
+    right: 5px;
+    padding: 2px 2px;
+    border: 2px solid #F44336;
+    border-radius: 6px;
+
+
 }
 
 /* this b tax inside of section tax */

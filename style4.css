@@ -1,0 +1,33 @@
+.container {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid: 20vh 20vh 20vh / 1fr 1fr 1fr;
+    gap: 0.2rem;
+   
+    overflow: hidden;
+ }
+  
+ .items {
+    background-color: blanchedalmond;
+    padding: 0.1rem;
+ }
+  
+ .row-span {
+    grid-row: span 2;
+ } 
+ 
+ .card {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+ } 
+ 
+ h2 {
+    margin: 0px;
+ } 
+
+
+ button {
+    width: fit-content;
+    padding: 8px 16px;
+ } 
